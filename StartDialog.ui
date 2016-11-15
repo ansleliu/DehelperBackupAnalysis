@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartDialog</class>
+ <widget class="QDialog" name="StartDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>403</width>
+    <height>176</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="rc.qrc">
+    <normaloff>:/new/prefix1/RC/Refresh.ico</normaloff>:/new/prefix1/RC/Refresh.ico</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>文件名</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNamelineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>251</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tableNamelineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>90</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>WordsBook</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tableNamelabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>表  名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="willkommenlabel">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>331</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>欢迎使用德语助手生词本转化工具，请选择创建您的转化词库</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quitButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>130</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/RC/Cancel.ico</normaloff>:/new/prefix1/RC/Cancel.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>90</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/RC/Save.ico</normaloff>:/new/prefix1/RC/Save.ico</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="acceptButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>130</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rc.qrc">
+     <normaloff>:/new/prefix1/RC/Ok.ico</normaloff>:/new/prefix1/RC/Ok.ico</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

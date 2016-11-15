@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>RC/Arrow2 Right.ico</file>
+        <file>RC/Arrow3 Left.ico</file>
+        <file>RC/Arrow3 Right.ico</file>
+        <file>RC/Attach.ico</file>
+        <file>RC/Back.ico</file>
+        <file>RC/Cancel.ico</file>
+        <file>RC/Copyright.ico</file>
+        <file>RC/Database.ico</file>
+        <file>RC/Email.ico</file>
+        <file>RC/Gear.ico</file>
+        <file>RC/Heart.ico</file>
+        <file>RC/Home.ico</file>
+        <file>RC/Info2.ico</file>
+        <file>RC/Light.ico</file>
+        <file>RC/Loop.ico</file>
+        <file>RC/Ok.ico</file>
+        <file>RC/Player Play.ico</file>
+        <file>RC/Player Stop.ico</file>
+        <file>RC/Refresh.ico</file>
+        <file>RC/Save.ico</file>
+        <file>RC/Standby.ico</file>
+        <file>RC/Start.ico</file>
+        <file>RC/Tag.ico</file>
+        <file>RC/Tool2.ico</file>
+        <file>RC/Trash.ico</file>
+        <file>RC/User.ico</file>
+        <file>RC/Wait.ico</file>
+        <file>RC/Wordpress.ico</file>
+        <file>RC/Write.ico</file>
+        <file>RC/Write2.ico</file>
+        <file>RC/Folder.ico</file>
+        <file>RC/Go Out.ico</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>RC/deutschicon.png</file>
+        <file>RC/pic.ico</file>
+        <file>RC/qt-logo.png</file>
+    </qresource>
+</RCC>
